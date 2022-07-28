@@ -1,0 +1,138 @@
+#profile {
+    display: flex;
+
+    min-width: 1280px;
+    max-width: 1920px;
+
+    margin: 0 auto;
+    padding: 0 1rem;
+
+    width: 70%;
+
+    height: 100%;
+
+    margin-top: 14.8vw;
+}
+
+.profile-img-box {
+    background-color: #D9D9D9;
+    width: 19vw;
+    height: 19vw;
+    border-radius: 50%;
+}
+
+.profile-box {
+    margin-left: 2.8vw;
+}
+
+.profile-name {
+    display: inline;
+    margin-right: 2.7vw;
+}
+
+.profile-box>span {
+    font-weight: 700;
+}
+
+.profile-box small {
+    display: block;
+
+    margin-top: 1vw;
+    font-size: 1.125rem;
+}
+
+.interest-tag1 {
+    display: inline-block;
+
+    width: 10.4rem;
+    height: 2.75rem;
+
+    margin-top: 1.7vw;
+    margin-right: 1vw;
+    padding: 0.8rem 1.25rem;
+
+    background-color: #E8F9F5;
+    border-radius: 1.875rem;
+
+    color: #2FBBA0;
+}
+
+.interest-tag2 {
+    display: flex;
+    display: inline-block;
+
+    width: 10.4rem;
+    height: 2.75rem;
+
+    margin-top: 1.7vw;
+    margin-right: 1vw;
+    padding: 0.8rem 1.25rem;
+
+    background-color: #FFF6F4;
+    border-radius: 1.875rem;
+
+    color: #FF6E53;
+}
+
+.interest-tag3 {
+    display: inline;
+
+    width: 12rem;
+    height: 2.75rem;
+
+    margin-top: 1.7vw;
+    padding: 0.8rem 1.25rem;
+
+    background-color: #E8F9F5;
+    border-radius: 1.875rem;
+
+    color: #2FBBA0;
+}
+
+.information-list {
+    display: flex;
+    flex-direction: row;
+
+    margin-top: 2.7vw;
+    padding-top: 2.4vw;
+
+    width: 45vw;
+
+    border-top: 1px solid black;
+}
+
+.information-list div:nth-child(2) {
+    margin-left: 7vw;
+}
+
+.telephone>address {
+    display: inline;
+    margin-left: 3.8vw;
+    color: #666666;
+}
+
+.blog {
+    margin-top: 1.125rem;
+}
+
+.blog>a {
+    margin-left: 3.8vw;
+    color: #666666;
+    word-break: break-all;
+}
+
+.email>address {
+    display: inline;
+    margin-left: 3.8vw;
+    color: #666666;
+}
+
+.github {
+    margin-top: 1.125rem;
+}
+
+.github>a {
+    margin-left: 3vw;
+    color: #666666;
+    word-break: break-all;
+}

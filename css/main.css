@@ -1,0 +1,65 @@
+main {
+    min-width: 1280px;
+    width: 100vw;
+}
+
+.link-box {
+    display: flex;
+
+    justify-content: center;
+
+    margin-top: 2.2vw;
+}
+
+.link-box ul {
+    display: flex;
+    flex-direction: row;
+
+    list-style: none;
+}
+
+.facebook>a {
+    display: inline-block;
+    background: url(../images/facebook.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+
+    width: 3.75rem;
+    height: 3.75rem;
+
+    margin-right: 2.2vw;
+}
+
+.instagram>a {
+    display: inline-block;
+    background: url(../images/instargram.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+
+    width: 3.75rem;
+    height: 3.75rem;
+
+    margin-right: 2.2vw;
+}
+
+.twitter>a {
+    display: inline-block;
+    background: url(../images/twitter.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+
+    width: 3.75rem;
+    height: 3.75rem;
+
+    margin-right: 2.2vw;
+}
+
+.youtube>a {
+    display: inline-block;
+    background: url(../images/youtube.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+
+    width: 3.75rem;
+    height: 3.75rem;
+}
