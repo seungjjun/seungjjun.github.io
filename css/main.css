@@ -63,3 +63,21 @@ main {
     width: 3.75rem;
     height: 3.75rem;
 }
+
+.top-button {
+    display: flex;
+    position: fixed;
+    background: url(../images/top-black.png);
+    background-size: contain;
+
+    width: 60px;
+    height: 60px;
+
+    right: 7vw;
+    bottom: 13.5vw;
+}
+
+.top-button:hover {
+    background: url(../images/top-white.png);
+    background-size: contain;
+}

@@ -50,3 +50,10 @@
 
     background-color: #91D5B0;
 }
+
+.contact-button>button:hover {
+    color: black;
+
+    border: 1px solid black;
+    background-color: white;
+}
