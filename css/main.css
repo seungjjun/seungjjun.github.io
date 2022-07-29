@@ -5,7 +5,7 @@ main {
 .link-box {
     display: flex;
     justify-content: center;
-    margin-top: 2.2vw;
+    margin-top: 2.4em;
 }
 
 .link-box ul {
@@ -19,9 +19,9 @@ main {
     background: url(../images/facebook.png);
     background-size: contain;
     background-repeat: no-repeat;
-    width: 3.75rem;
-    height: 3.75rem;
-    margin-right: 2.2vw;
+    width: 3.75em;
+    height: 3.75em;
+    margin-right: 2.6em;
 }
 
 .instagram>a {
@@ -29,9 +29,9 @@ main {
     background: url(../images/instargram.png);
     background-size: contain;
     background-repeat: no-repeat;
-    width: 3.75rem;
-    height: 3.75rem;
-    margin-right: 2.2vw;
+    width: 3.75em;
+    height: 3.75em;
+    margin-right: 2.6em;
 }
 
 .twitter>a {
@@ -39,9 +39,9 @@ main {
     background: url(../images/twitter.png);
     background-size: contain;
     background-repeat: no-repeat;
-    width: 3.75rem;
-    height: 3.75rem;
-    margin-right: 2.2vw;
+    width: 3.75em;
+    height: 3.75em;
+    margin-right: 2.6em;
 }
 
 .youtube>a {
@@ -49,8 +49,8 @@ main {
     background: url(../images/youtube.png);
     background-size: contain;
     background-repeat: no-repeat;
-    width: 3.75rem;
-    height: 3.75rem;
+    width: 3.75em;
+    height: 3.75em;
 }
 
 .top-button {
@@ -58,13 +58,58 @@ main {
     position: fixed;
     background: url(../images/top-black.png);
     background-size: contain;
-    width: 60px;
-    height: 60px;
-    right: 7vw;
-    bottom: 13.5vw;
+    width: 4.5em;
+    height: 4.5em;
+    right: 7em;
+    bottom: 14em;
 }
 
 .top-button:hover {
     background: url(../images/top-white.png);
     background-size: contain;
+}
+
+
+@media (max-width:1024px) {
+    main {
+        position: relative;
+        min-width: 375px;
+        max-width: 1024px;
+        bottom: -30vw;
+
+    }
+
+    .facebook>a {
+        width: 8vw;
+        height: 8vw;
+        margin-right: 8vw;
+    }
+    
+    .instagram>a {
+        width: 8vw;
+        height: 8vw;
+        margin-right: 8vw;    
+    }
+    
+    .twitter>a {
+        width: 8vw;
+        height: 8vw;
+        margin-right: 8vw;    
+    }
+    
+    .youtube>a {
+        width: 8vw;
+        height: 8vw;
+    }
+
+    .top-button {
+        display: flex;
+        position: fixed;
+        background: url(../images/top-black.png);
+        background-size: contain;
+        width: 8vw;
+        height: 8vw;
+        right: 5vw;
+        bottom: 2em;
+    }
 }

@@ -17,3 +17,17 @@ footer {
     font-weight: 400;
     color: #666666;
 }
+
+@media (max-width:1024px) {
+    .introduction-box {
+        min-width: 375px;
+        max-width: 1024px;
+        width: 90%;
+    }
+
+    footer {
+        min-width: 375px;
+        max-width: 1024px;
+        width: 90%;
+    }
+}

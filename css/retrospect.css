@@ -9,21 +9,21 @@
     max-width: 1920px;
     width: 70%;
     margin: 0 auto;
-    padding: 0 1rem;
+    padding: 0 1em;
 }
 
 .retrospect-title {
-    margin-top: 9.75rem;
+    margin-top: 9.75em;
 }
 
 .retrospect-title>h2 {
-    font-size: 1.6vw;
+    font-size: 2em;
     display: inline-block;
     color: #8FFCB9;
 }
 
 .post {
-    margin-top: 2rem;
+    margin-top: 2em;
 }
 
 .cards {
@@ -36,14 +36,76 @@
 }
 
 .cards li {
-    width: 19rem;
-    height: 19rem;
-    background: url(../images/mint.jpeg);
+    width: 19em;
+    height: 19em;
     background-size: cover;
     border-radius: 20px;
 }
 
-.cards li:hover {
-    background: url(../images/mint-gray.jpeg);
-    background-size: cover;
+.cards li:nth-child(1) {
+    background-image: url(../images/retrospect1.png);    
+}
+
+.cards li:nth-child(2) {
+    background-image: url(../images/retrospect2.png);
+}
+
+.cards li:nth-child(3) {
+    background: url(../images/retrospect3.png);
+}
+
+.cards li:nth-child(4) {
+    background: url(../images/retrospect4.jpeg);
+}
+
+.cards li:nth-child(5) {
+    background: url(../images/mint.jpeg);
+}
+
+.cards li:nth-child(6) {
+    background: url(../images/mint.jpeg);
+}
+
+.cards li:nth-child(7) {
+    background: url(../images/mint.jpeg);
+}
+
+.cards li:nth-child(8) {
+    background: url(../images/mint.jpeg);
+}
+
+.card >a {
+    font-size: 1.5em;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    color: #FFF;
+}
+
+@media (max-width:1024px) {
+    .retrospect-box {
+        min-width: 375px;
+        max-width: 1024px;
+        width: 90%;
+    }
+
+    .retrospect-title>h2 {
+        font-size: 10vw;
+    }
+
+    .post {
+        overflow-x: scroll;
+    }
+
+    .cards {
+        display: flex;
+        gap: 2vw;
+        width: calc((50vw + 4vw) * 8);;
+    }
+
+    .card >a {
+        font-size: 5vw;
+    }
 }
