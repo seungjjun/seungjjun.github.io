@@ -5,14 +5,11 @@
 .retrospect-box {
     display: flex;
     flex-direction: column;
-
     min-width: 1280px;
     max-width: 1920px;
-
+    width: 70%;
     margin: 0 auto;
     padding: 0 1rem;
-
-    width: 70%;
 }
 
 .retrospect-title {
@@ -20,50 +17,29 @@
 }
 
 .retrospect-title>h2 {
-    display: inline-block;
-
     font-size: 1.6vw;
-
+    display: inline-block;
     color: #8FFCB9;
 }
 
-.retrospect-title>ul {
-    display: flex;
-    flex-direction: row;
-    float: right;
-}
-
-.retrospect-title ul li {
-    list-style: none;
-    margin-left: 2.5vw;
-
-    font-size: 18px;
-    font-weight: 700;
-}
-
-.post-list {
+.post {
     margin-top: 2rem;
 }
 
 .cards {
-    list-style: none;
-
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(2, 1fr);
-
     gap: 1vw;
-
     margin-bottom: 9.375rem;
+    list-style: none;
 }
 
 .cards li {
-    background: url(../images/mint.jpeg);
-    background-size: cover;
-
     width: 19rem;
     height: 19rem;
-
+    background: url(../images/mint.jpeg);
+    background-size: cover;
     border-radius: 20px;
 }
 

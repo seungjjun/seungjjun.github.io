@@ -5,86 +5,45 @@
 .exprience-box {
     display: flex;
     flex-direction: column;
-
+    width: 70%;
     min-width: 1280px;
     max-width: 1920px;
-
     margin: 0 auto;
     padding: 0 1rem;
-
-    width: 70%;
 }
 
 .exprience-box>h2 {
-    margin-top: 26rem;
-
     font-size: 1.6vw;
-
+    margin-top: 26rem;
+    padding-bottom: 2.5em;
+    border-bottom: 1px solid white;
     color: #8FFCB9;
 }
 
-.exprience1 {
+.exprience {
     display: flex;
     justify-content: space-between;
-
     height: 4.8vw;
-
-    margin-top: 2.2vw;
-    padding-top: 2rem;
-    border-top: 1px solid white;
-
+    margin-top: 1vw;
+    padding-top: 1.5rem;
+    border-bottom: 1px dashed white;
     color: white;
 }
 
-.exprience1>span:first-child {
+.exprience>span:first-child {
     font-size: 1.12rem;
     font-weight: 700;
 }
 
-.exprience1>span:nth-child(2) {
+.exprience>span:nth-child(2) {
     font-size: 1.12rem;
     font-weight: 400;
-
     margin-right: 30rem;
-
     color: rgba(255, 255, 255, 0.5);
 }
 
-.exprience1>time {
+.exprience>time {
     font-size: 1.12rem;
     font-weight: 400;
-
-    color: rgba(255, 255, 255, 0.5);
-}
-
-.exprience2 {
-    display: flex;
-    justify-content: space-between;
-    height: 4.8vw;
-
-    padding-top: 2.2rem;
-    border-top: 1px dashed white;
-
-    color: white;
-}
-
-.exprience2>span:first-child {
-    font-size: 1.12rem;
-    font-weight: 700;
-}
-
-.exprience2>span:nth-child(2) {
-    font-size: 1.12rem;
-    font-weight: 400;
-
-    margin-right: 30rem;
-
-    color: rgba(255, 255, 255, 0.5);
-}
-
-.exprience2>time {
-    font-size: 1.12rem;
-    font-weight: 400;
-
     color: rgba(255, 255, 255, 0.5);
 }

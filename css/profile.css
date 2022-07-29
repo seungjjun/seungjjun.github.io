@@ -1,138 +1,116 @@
 #profile {
     display: flex;
-
+    width: 70%;
+    height: 100%;
     min-width: 1280px;
     max-width: 1920px;
-
     margin: 0 auto;
-    padding: 0 1rem;
-
-    width: 70%;
-
-    height: 100%;
-
     margin-top: 14.8vw;
+    padding: 0 1em;
 }
 
 .profile-img-box {
-    background-color: #D9D9D9;
     width: 19vw;
     height: 19vw;
     border-radius: 50%;
+    background-color: #D9D9D9;
 }
 
 .profile-box {
-    margin-left: 2.8vw;
+    margin-left: 3.4em;
 }
 
-.profile-name {
+#profile .name {
     display: inline;
-    margin-right: 2.7vw;
 }
 
-.profile-box>span {
+#profile .name span {
     font-weight: 700;
+    margin-left: 2.2em;
 }
 
-.profile-box small {
+#profile .name small {
+    font-size: 0.7em;
     display: block;
-
-    margin-top: 1vw;
-    font-size: 1.125rem;
+    margin-top: 1.5em;
 }
 
-.interest-tag1 {
+.profile-box section:nth-child(2) {
     display: inline-block;
-
-    width: 10.4rem;
-    height: 2.75rem;
-
-    margin-top: 1.7vw;
-    margin-right: 1vw;
-    padding: 0.8rem 1.25rem;
-
+    width: 10.4em;
+    height: 2.75em;
+    margin-top: 1.7em;
+    margin-right: 1em;
+    padding: 0.8em 1.25em;
+    border-radius: 1.875em;
     background-color: #E8F9F5;
-    border-radius: 1.875rem;
-
     color: #2FBBA0;
 }
 
-.interest-tag2 {
+.profile-box section:nth-child(3) {
     display: flex;
     display: inline-block;
-
-    width: 10.4rem;
-    height: 2.75rem;
-
-    margin-top: 1.7vw;
-    margin-right: 1vw;
-    padding: 0.8rem 1.25rem;
-
+    width: 10.4em;
+    height: 2.75em;
+    margin-top: 1.7em;
+    margin-right: 1em;
+    padding: 0.8em 1.25em;
+    border-radius: 1.875em;
     background-color: #FFF6F4;
-    border-radius: 1.875rem;
-
     color: #FF6E53;
 }
 
-.interest-tag3 {
+.profile-box section:nth-child(4) {
     display: inline;
-
-    width: 12rem;
-    height: 2.75rem;
-
-    margin-top: 1.7vw;
-    padding: 0.8rem 1.25rem;
-
+    width: 12em;
+    height: 2.75em;
+    margin-top: 1.7em;
+    padding: 0.8em 1.25em;
+    border-radius: 1.875em;
     background-color: #E8F9F5;
-    border-radius: 1.875rem;
-
     color: #2FBBA0;
 }
 
 .information-list {
     display: flex;
     flex-direction: row;
-
-    margin-top: 2.7vw;
-    padding-top: 2.4vw;
-
-    width: 45vw;
-
+    margin-top: 3.5em;
+    padding-top: 2.9em;
     border-top: 1px solid black;
 }
 
 .information-list div:nth-child(2) {
-    margin-left: 7vw;
+    margin-left: 16em;
 }
 
 .telephone>address {
     display: inline;
-    margin-left: 3.8vw;
+    margin-left: 4.5em;
     color: #666666;
 }
 
 .blog {
-    margin-top: 1.125rem;
+    margin-top: 1.125em;
 }
 
 .blog>a {
-    margin-left: 3.8vw;
+    margin-left: 4.2em;
     color: #666666;
     word-break: break-all;
 }
 
 .email>address {
     display: inline;
-    margin-left: 3.8vw;
+    margin-left: 4.5em;
     color: #666666;
 }
 
 .github {
-    margin-top: 1.125rem;
+    margin-top: 1.125em;
 }
 
 .github>a {
-    margin-left: 3vw;
+    margin-left: 3.8em;
     color: #666666;
     word-break: break-all;
 }
