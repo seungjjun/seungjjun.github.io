@@ -30,6 +30,10 @@
     color: white;
 }
 
+.exprience:last-child {
+    margin-bottom: 9.4em;
+}
+
 .exprience>span:first-child {
     font-size: 1.12rem;
     font-weight: 700;
