@@ -1,0 +1,87 @@
+.introduction-box {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    min-width: 1280px;
+    max-width: 1920px;
+    margin: 0 auto;
+    padding: 0 1em;
+}
+
+.introduction-box>div {
+    display: flex;
+    border: 1px solid #DDDDDD;
+    border-top: 1px solid #000000;
+}
+
+.introduce>strong {
+    font-size: 2em;
+    display: block;
+    padding: 2.5em 0 1em 2em;
+}
+
+.introduce>span {
+    font-size: 1.1em;
+    display: block;
+    padding: 0 0 3.5em 3.7em;
+    color: #666666;
+}
+
+.contact-button {
+    display: flex;
+    align-items: center;
+    margin-left: 35em;
+}
+
+.contact-button>button {
+    width: 12.37em;
+    height: 3.375em;
+    border-radius: 50px;
+    border: 1px solid #91D5B0;
+    background-color: #91D5B0;
+}
+
+.contact-button>button:hover {
+    border: 1px solid #000000;
+    color: black;
+    background-color: #DDDDDD;
+}
+
+@media (max-width:1024px) {
+    .introduction-box {
+        min-width: 375px;
+        max-width: 1024px;
+        width: 90%;
+    }
+
+    .introduction-box>div{
+        display: grid;
+    }
+
+    .introduce>strong {
+        font-size: 4.5vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 4vw 10vw 3vw 0;
+    }
+
+    .introduce>span {
+        font-size: 3vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: -21vw;
+    }
+
+    .contact-button{
+        margin: 0 0 0 30vw;
+    }
+
+    .contact-button>button {
+        font-size: 2.5vw;
+        width: 30vw;
+        height: 10vw;
+        margin: 3vw 0 10vw 0;
+    }
+}

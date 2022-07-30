@@ -1,0 +1,117 @@
+#retrospect {
+    /* background-color: #91D5B0; */
+}
+
+.retrospect-box {
+    display: flex;
+    flex-direction: column;
+    min-width: 1280px;
+    max-width: 1920px;
+    width: 70%;
+    margin: 0 auto;
+    padding: 0 1em;
+}
+
+.retrospect-title {
+    margin-top: 9.75em;
+}
+
+.retrospect-title>h2 {
+    font-size: 2em;
+    display: inline-block;
+    color: #8FFCB9;
+}
+
+.post {
+    margin-top: 2em;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 1vw;
+    margin-bottom: 9.375rem;
+    list-style: none;
+}
+
+.cards li {
+    width: 19em;
+    height: 19em;
+    background-size: cover;
+    border-radius: 20px;
+}
+
+.cards li:nth-child(1) {
+    background-image: url(../images/retrospect1.png);    
+}
+
+.cards li:nth-child(2) {
+    background-image: url(../images/retrospect2.png);
+}
+
+.cards li:nth-child(3) {
+    background: url(../images/retrospect3.png);
+}
+
+.cards li:nth-child(4) {
+    background: url(../images/retrospect4.jpeg);
+}
+
+.cards li:nth-child(5) {
+    background: url(../images/retrospect6.png);
+}
+
+.cards li:nth-child(6) {
+    background: url(../images/retrospect5.png);
+}
+
+.cards li:nth-child(7) {
+    background: url(../images/retrospect7.jpeg);
+}
+
+.cards li:nth-child(8) {
+    background: url(../images/retrospect8.jpeg);
+}
+
+.card >a {
+    font-size: 0;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    font
+}
+
+.card >a:hover {
+    font-size: 1.5em;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #FFF;
+}
+
+@media (max-width:1024px) {
+    .retrospect-box {
+        min-width: 375px;
+        max-width: 1024px;
+        width: 90%;
+    }
+
+    .retrospect-title>h2 {
+        font-size: 10vw;
+    }
+
+    .post {
+        overflow-x: scroll;
+    }
+
+    .cards {
+        display: flex;
+        gap: 2vw;
+        width: calc((50vw + 4vw) * 8);;
+    }
+
+    .card >a {
+        font-size: 5vw;
+    }
+}

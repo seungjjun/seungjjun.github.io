@@ -1,0 +1,33 @@
+footer {
+    display: flex;
+    justify-content: center;
+    min-width: 1280px;
+    max-width: 1920px;
+    margin-top: 8.5vw;
+    border-top: 1px solid #E9E9E9;
+}
+
+.copyright-box {
+    margin-top: 2.2vw;
+    margin-bottom: 2.2vw;
+}
+
+.copyright-box small {
+    font-size: 14px;
+    font-weight: 400;
+    color: #666666;
+}
+
+@media (max-width:1024px) {
+    .introduction-box {
+        min-width: 375px;
+        max-width: 1024px;
+        width: 90%;
+    }
+
+    footer {
+        min-width: 375px;
+        max-width: 1024px;
+        width: 90%;
+    }
+}

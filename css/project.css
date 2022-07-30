@@ -1,0 +1,134 @@
+#project {
+    background-color: #DEF4E2;
+}
+
+#project>div {
+    display: flex;
+    flex-direction: column;
+
+    width: 70%;
+    height: 24em;
+    min-width: 1280px;
+    max-width: 1920px;
+    margin: 0 auto;
+    margin-top: 17em;
+    padding: 0 1em;
+}
+
+#project h2 {
+    font-size: 1.6em;
+    display: block;
+    margin-top: 4.5em;
+    margin-bottom: 1em;
+    color: #8FFCB9;
+}
+
+.project-content-box {
+    display: flex;
+}
+
+.project-content {
+    margin-right: 1.7em;
+    border-radius: 1.2em;
+    background-color: white;
+}
+
+.project-content:hover {
+    box-shadow: 0 10px 7px 2px gray;
+}
+
+.project-content>img {
+    display: block;
+    width: 25em;
+    height: 11em;
+    border-radius: 10px 10px 0 0;
+}
+
+.project-content>span {
+    font-size: 1.3em;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    margin-top: 1.7em;
+}
+
+.project-content>p {
+    display: flex;
+    justify-content: center;
+    margin-top: 1.8em;
+    white-space: pre-wrap;
+}
+
+.project-content>button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10rem;
+    height: 3.6em;
+    margin: 1.9em 0 2.4em 9em;
+    border-radius: 3rem;
+    background-color: white;
+}
+
+.project-content>button:hover {
+    border: 1px solid #8FFCB9;
+    color: white;
+    background-color: #8FFCB9;
+}
+
+.project-content>button>img {
+    position: relative;
+    width: 0.8em;
+    height: 0.55em;
+    left: 1.6em;
+}
+
+@media (max-width:1024px) {
+    #project {
+        height: 320vw;
+    }
+
+     #project>div {
+        min-width: 375px;
+        max-width: 1024px;
+        width: 90%;
+    }
+
+    #project h2{
+        font-size: 8vw;
+    }
+
+    .project-content-box {
+        flex-direction: column;
+    }
+
+    .project-content {
+        margin-bottom: 10vw;
+        width: 80vw;
+        height: 77vw;
+
+    }
+
+    .project-content>img {
+        width: 80vw;
+        height: 30vw;
+    }
+
+    .project-content>span {
+        font-size: 4.5vw;
+        margin: 1.7em 31vw 0 0;
+    }
+    
+    .project-content>p {
+        font-size: 4vw;
+        margin-top: 5vw;
+    }
+    
+    .project-content>button {
+        font-size: 2.5vw;
+        margin: 1vw 0 0 10vw;
+        width: 30vw;
+        height: 10vw;
+    }
+ }
+ 

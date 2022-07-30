@@ -1,0 +1,104 @@
+#exprience {
+    background-color: #91D5B0;
+}
+
+.exprience-box {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    min-width: 1280px;
+    max-width: 1920px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+.exprience-box>h2 {
+    font-size: 1.6vw;
+    margin-top: 26rem;
+    padding-bottom: 2.5em;
+    border-bottom: 1px solid white;
+    color: #8FFCB9;
+}
+
+.exprience {
+    display: flex;
+    justify-content: space-between;
+    height: 4.8vw;
+    margin-top: 1vw;
+    padding-top: 1.5rem;
+    border-bottom: 1px dashed white;
+    color: white;
+}
+
+.exprience:last-child {
+    margin-bottom: 9.4em;
+}
+
+.exprience>span:first-child {
+    font-size: 1.12rem;
+    font-weight: 700;
+}
+
+.exprience>span:nth-child(2) {
+    font-size: 1.12rem;
+    font-weight: 400;
+    margin-right: 30rem;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.exprience>time {
+    font-size: 1.12rem;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.institution {
+    grid-area: institution;
+}
+
+.course {
+    grid-area: course;
+}
+
+.period {
+    grid-area: period;
+}
+
+@media (max-width:1024px) {
+    .exprience-box {
+        min-width: 375px;
+        max-width: 1024px;
+        width: 90%;
+    }
+
+    .exprience-box>h2 {
+        font-size: 10vw;
+        margin-top: 35vw;
+        padding-bottom: 2vw;
+        border-bottom: 4px solid white;
+        color: #8FFCB9;
+    }
+
+    .exprience {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        grid-template-areas: 
+        "institution course"
+        "institution period";
+        padding: 4vw 4vw;
+        height: 30vw;
+    }
+    
+    .exprience>span:first-child {
+        font-size: 5vw;
+    }
+    
+    .exprience>span:nth-child(2) {
+        font-size: 3.5vw;
+        margin-right: 0em;
+    }
+
+    .exprience>time {
+        font-size: 3.5vw;
+    }
+}
