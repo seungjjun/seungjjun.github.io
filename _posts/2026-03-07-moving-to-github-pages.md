@@ -1,9 +1,12 @@
 ---
-layout: post
+layout: single
 title: "티스토리에서 깃허브로 : 새로운 공간으로의 이동"
 date: 2026-03-07 15:00:00 +0900
 categories: [Etc]
 tags: [Blog, Github Pages, Retrospective]
+toc: true
+toc_sticky: true
+toc_label: "목차"
 ---
 
 ## 새로운 시작
