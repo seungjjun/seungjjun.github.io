@@ -1,4 +1,6 @@
 # main links
 main:
-  - title: "posts"
-    url:
+  - title: "Posts"
+    url: /
+  - title: "Categories"
+    url: /categories/
